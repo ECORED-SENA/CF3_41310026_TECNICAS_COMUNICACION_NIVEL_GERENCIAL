@@ -26,7 +26,7 @@
                     img(src="@/assets/curso/tema2/img3.png", alt="alt")
                 .crd_hover_txt1--body
                   h4.text-center.text-white.mb-3 Sistema de información
-                  p.text-center.text-white.mb-0 Está compuesto por un conjunto de elementos integrados e interrelacionados cuyo objetivo es cumplir las funciones de capturar, depurar, almacenar, recuperar, actualizar y procesar datos
+                  p.text-center.text-white.mb-0 Está compuesto por un conjunto de elementos integrados e interrelacionados cuyo objetivo es cumplir las funciones de capturar, depurar, almacenar, recuperar, actualizar y procesar datos.
             .col-10.col-md-6.col-xl-4(data-aos="fade-left")
               .crd_hover_txt2
                 .crd_hover_txt2--img
@@ -133,7 +133,7 @@
             .col-lg-5(data-aos="fade-left")
               figure
                 img(src="@/assets/curso/tema2/img7.png", style="width: 450px", alt="").m-auto
-          p.mb-5(data-aos="fade-right") #[b Sistema de información de marketing (SIM)]: sistema estructurado de datos, personas, procedimientos, métodos y herramientas de tecnología de la información diseñado para generar un flujo ordenado de información relacionada con los negocios y el entorno organizacional. Este sistema tiene como objetivo proveer información para la toma de decisiones en las áreas de #[i marketing]. #[b.txt-c1 Procesa la información en tres derivaciones principales]:
+          p.mb-5(data-aos="fade-right") #[b Sistema de información de #[i marketing] (SIM)]: sistema estructurado de datos, personas, procedimientos, métodos y herramientas de tecnología de la información diseñado para generar un flujo ordenado de información relacionada con los negocios y el entorno organizacional. Este sistema tiene como objetivo proveer información para la toma de decisiones en las áreas de #[i marketing]. #[b.txt-c1 Procesa la información en tres derivaciones principales]:
           .row.justify-content-center.mb-5
             .col-11.col-md-6.col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
               .p-4.bg-c12.shadow
@@ -180,7 +180,7 @@
               p.mb-0 Proporciona información relacionada con los estados financieros y asuntos económicos para quienes la necesiten, tanto dentro como fuera de la organización.
     p.mb-5(data-aos="fade-right") Las necesidades de las organizaciones varían debido a diferentes factores, entre ellos los diferentes niveles jerárquicos que existen dentro de la organización, que generalmente no coinciden en cuanto a sus necesidades e intereses. Por esta razón, se propone la clasificación de los sistemas de información según cuatro niveles jerárquicos principales:
     .titulo-sexto.color-acento-contenido(data-aos="fade-down")
-      p.mb-0 #[b Figura 1]. Niveles Jerárquicos en una organización
+      p.mb-0 #[b Figura 1]. Niveles jerárquicos en una organización
     .row.mb-5
       .col-12
         .p-4.bg-c11(data-aos="fade-left")
@@ -212,7 +212,7 @@
               img(src='@/assets/curso/tema2/img11.png', style="width: 500px", alt='').m-auto
           .col-lg-5
             p #[b Sistema de trabajo del conocimiento (WKS)]
-            p.mb-0 Promueve la creación de nuevos conocimientos, especialmente en la creación de nuevos productos y servicios. Ejemplos de este sistema se encuentran en las áreas de diseño y marketing.
+            p.mb-0 Promueve la creación de nuevos conocimientos, especialmente en la creación de nuevos productos y servicios. Ejemplos de este sistema se encuentran en las áreas de diseño y #[i marketing].
       .p-4.p-md-5.bg-c13(titulo="Sistema de oficina")
         .row.justify-content-center.align-items-center
           .col-lg-6.mb-4.mb-lg-0
@@ -220,7 +220,7 @@
               img(src='@/assets/curso/tema2/img12.png', style="width: 500px", alt='').m-auto
           .col-lg-5
             p #[b Sistema de oficina]
-            p.mb-0 on aplicaciones informáticas que permiten la comunicación y gestión de la información, facilitando el trabajo de quienes la crean, almacenan, procesan y distribuyen.
+            p.mb-0 Son aplicaciones informáticas que permiten la comunicación y gestión de la información, facilitando el trabajo de quienes la crean, almacenan, procesan y distribuyen.
     .row
       .col-12
         .p-4.bg-c14(data-aos="fade-right")
