@@ -183,7 +183,7 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Información de marketing únicamente.',
+              texto: 'Información de <i>marketing</i> únicamente.',
               esCorrecta: false,
             },
             {
@@ -227,7 +227,7 @@ export default {
             },
             {
               id: 'c',
-              texto: 'Almacenar datos sobre marketing.',
+              texto: 'Almacenar datos sobre <i>marketing</i>.',
               esCorrecta: false,
             },
             {

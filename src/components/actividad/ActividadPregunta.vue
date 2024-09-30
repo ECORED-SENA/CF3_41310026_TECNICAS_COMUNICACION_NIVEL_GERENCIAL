@@ -1,10 +1,8 @@
 <template>
   <div>
-    <p class="mb-4 pb-4">
-      <b>{{ pregunta.texto }}</b>
-    </p>
+    <p class="mb-4 pb-4" v-html="pregunta.texto"></p>
     <div class="row align-items-center">
-      <div class="d-none d-md-block col-4">
+      <div class="d-none d-md-block col-5">
         <img :src="pregunta.imagen" alt="" />
       </div>
       <div class="col">
@@ -33,9 +31,7 @@
                 ]"
               />
             </div>
-            <div class="col">
-              {{ respuesta.texto }}
-            </div>
+            <div class="col" v-html="respuesta.texto"></div>
           </div>
         </div>
       </div>
@@ -93,6 +89,11 @@ export default {
 </script>
 
 <style lang="sass" scoped>
+img
+  width: auto
+  height: auto
+  display: block
+  margin: auto
 .tarjeta--pregunta
   background: #dce4eb
 .tarjeta-respuesta
