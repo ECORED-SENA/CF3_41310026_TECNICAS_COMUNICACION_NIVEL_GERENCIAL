@@ -17,9 +17,9 @@
             .col-lg-8.bg-c7(data-aos="fade-left")
               .p-4.p-lg-5
                 p.mb-0 Un sistema se define, según el Diccionario de la Real Academia Española, #[b #[i como un conjunto de elementos interrelacionados que, de manera ordenada, contribuyen a un objetivo específico]]. En el contexto organizacional, un sistema de información es un conjunto formal de procesos que operan con un conjunto estructurado de datos.
-          p.mb-5(data-aos="fade-right") Estos procesos están diseñados para capturar, depurar, almacenar, recuperar, actualizar y procesar datos, con el fin de proporcionar, distribuir y transmitir información en el lugar y momento en que sea requerido en la organización.
+          p.mb-0(data-aos="fade-right") Estos procesos están diseñados para capturar, depurar, almacenar, recuperar, actualizar y procesar datos, con el fin de proporcionar, distribuir y transmitir información en el lugar y momento en que sea requerido en la organización.
           .row.justify-content-center.mb-5
-            .col-10.col-md-6.col-xl-4.mb-4.mb-xl-0(data-aos="fade-right")
+            .col-10.col-md-6.col-xl-4.mb-4.mb-xl-0.mt-lg-5.d-none.d-lg-block(data-aos="fade-right")
               .crd_hover_txt1
                 .crd_hover_txt1--img
                   figure
@@ -27,7 +27,7 @@
                 .crd_hover_txt1--body
                   h4.text-center.text-white.mb-3 Sistema de información
                   p.text-center.text-white.mb-0 Está compuesto por un conjunto de elementos integrados e interrelacionados cuyo objetivo es cumplir las funciones de capturar, depurar, almacenar, recuperar, actualizar y procesar datos.
-            .col-10.col-md-6.col-xl-4(data-aos="fade-left")
+            .col-10.col-md-6.col-xl-4.mt-lg-5.d-none.d-lg-block(data-aos="fade-left")
               .crd_hover_txt2
                 .crd_hover_txt2--img
                   figure
@@ -35,6 +35,25 @@
                 .crd_hover_txt2--body
                   h4.text-center.mb-3 Apoyo en la toma de decisiones
                   p.text-center.mb-0 Respalda las actividades de dirección y control, facilitando la toma de decisiones necesarias para desempeñar las funciones y procesos de negocio en consonancia con la estrategia de la empresa.
+
+
+          .row.justify-content-center
+            .col-10.col-md-6.col-xl-4.mb-4.mb-xl-0.d-block.d-lg-none(data-aos="fade-right")
+              .bg1.p-3
+                figure.mb-3
+                  img(src="@/assets/curso/tema2/img3.png", alt="alt")
+                h4.text-center.text-white.mb-3 Sistema de información
+                p.text-center.text-white.mb-0 Está compuesto por un conjunto de elementos integrados e interrelacionados cuyo objetivo es cumplir las funciones de capturar, depurar, almacenar, recuperar, actualizar y procesar datos.
+            .col-10.col-md-6.col-xl-4.mb-4.mb-xl-0.d-block.d-lg-none(data-aos="fade-left")
+              .bg2.p-3
+                figure.mb-3
+                  img(src="@/assets/curso/tema2/img4.png", alt="alt")
+                  
+                h4.text-center.mb-3 Apoyo en la toma de decisiones
+                p.text-center.mb-0 Respalda las actividades de dirección y control, facilitando la toma de decisiones necesarias para desempeñar las funciones y procesos de negocio en consonancia con la estrategia de la empresa.
+
+
+
           p.mb-5(data-aos="fade-up") Además, un sistema de información incluye personas, datos, procesos y tecnologías de la información que interactúan para garantizar el flujo adecuado de información, indispensable para el correcto funcionamiento de la organización.
           .row.mb-4(data-aos="fade-right")
             .col-auto.bg-c8
